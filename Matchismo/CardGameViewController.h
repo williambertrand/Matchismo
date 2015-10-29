@@ -10,4 +10,7 @@
 
 @interface CardGameViewController : UIViewController
 
+-(IBAction)setCardButtons:(NSArray *)cardButtons;
+
+-(IBAction)newGame:(id)sender;
 @end
